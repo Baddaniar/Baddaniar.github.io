@@ -236,8 +236,6 @@ nav{
     background-color: #FFFFFF;
 }
 
-
-
 .louvre_content{
     width: 80%;
     margin: 0 auto;
@@ -410,8 +408,6 @@ nav{
     margin: 0 auto;
 }
 
-
-
 .rating_name{
     font-weight: 700;
     font-size: 30px;
@@ -428,6 +424,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #C7DCE9;
 }
 
 .rating_left{

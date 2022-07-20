@@ -1,0 +1,183 @@
+@font-face{
+    font-family: "QTOptimum";
+    src: url('./font/QTOptimum\ Regular.ttf');
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url('./font/helveticaneuecyr-bold.ttf');
+}
+
+@font-face {
+    font-family: "Beauty Swing Personal Use";
+    src: url('./font/Beauty\ Swing.otf');
+}
+
+.kindness_header{
+    height: 815px;
+    background-image: url('./image/kindnessimage.png');
+}
+
+.kindness_header_content{
+    width: 80%;
+    height: 815px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kindness_main_text{
+    width: 662px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 103.05%;
+    color: #4F6776;
+    font-family: "Beauty Swing Personal Use"
+}
+
+.kindness_main_butt0n{
+    width: 249px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    margin-top: 39px;
+    border: none;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%) , #748E9C;
+}
+
+.how_works_content{
+    margin: 0 auto;
+    width: 80%;
+    height: 563px;
+}
+
+.answer{
+    display: flex;
+    height: 140px;
+    margin-top: 100px;
+}
+
+.left_answer_part{
+    margin-top: 15px;
+    margin-right: 69px;
+}
+
+.quesstion_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 102px;
+    border: 1px solid #476676;
+}
+
+.quesstion_box_qe{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 87px;
+    color: #365262;
+    font-family: "QTOptimum";
+}
+
+.answer_main_text{
+    font-family: 'QTOptimum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #365262;
+}
+
+.answe_desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #476676;
+}
+
+.mb23{
+    margin-bottom: 23px;
+}
+
+.kindness_types{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 94px;
+}
+
+.kindness_box{
+    padding-left: 46px;
+    padding-top: 23px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 395px;
+    height: 282px;
+    border: 1px solid #B1D0D8;
+    position: relative;
+}
+
+.fs17{
+    font-size: 17px;
+}
+
+.wi290{
+    width: 290px;
+}
+
+.rewards{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(203, 225, 239, 0.25) 0%, rgba(167, 194, 211, 0) 100%), #6C8693;
+    height: 504px;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+
+.rewards_content{
+    width: 80%;
+    margin: 0 auto;
+    height: 504px;
+}
+
+.whit{
+    color: #E8F6FE;
+}
+
+.wi700{
+    width: 700px;
+}
+
+.wi408{width: 408px;}
+
+.rewards_type{
+    display: flex;
+}
+
+.reward{
+    box-sizing: border-box;
+    width: 594px;
+    height: 188px;
+    border: 1px solid #E1F9FF;
+    padding-top: 36px;
+    padding-left: 36px;
+    margin-right: 20px;
+}
+
+.kindness_rating{
+    height: 1300px;
+}
+
+.kindness_rating_content{
+    margin: 0 auto;
+    width: 80%;
+}
+.tecentr{
+    text-align: left;
+}
+
