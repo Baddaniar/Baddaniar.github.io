@@ -1,0 +1,215 @@
+@font-face{
+    font-family: "QTOptimum";
+    src: url('./font/QTOptimum\ Regular.ttf');
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url('./font/helveticaneuecyr-bold.ttf');
+}
+
+@font-face {
+    font-family: "Beauty Swing Personal Use";
+    src: url('./font/Beauty\ Swing.otf');
+}
+
+.profile_content{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.profile_info{
+    margin-top: 47px;
+    display: flex;
+}
+
+.left_profile_info{
+    width: 259px;
+}
+
+.follow_info_box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+.follow_type{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103.05%;
+    color: #979391;
+    font-family: 'Inter'
+}
+
+.follow_amount{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 103.05%;
+    color: #000000;
+    font-family: 'Inter'
+}
+
+.follo_line{
+    height: 69px;
+    border-left: 1px solid #D9D9D9;
+}
+
+.follow_but{
+    width: 259px;
+    height: 74px;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%), #748E9C;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103.05%;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    border: none;
+    margin-top: 17px;
+}
+
+.profile_statisctic{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 79px;
+}
+
+.fs30{
+    font-size: 30px;
+}
+
+.middle_profile_info{
+    margin-left: 47px;
+}
+
+.wi790{
+    width: 790px;
+}
+
+.profile_about{
+    margin-top: 48px;
+}
+
+.profile_main_name{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    font-family: 'QTOptimum';
+}
+
+.right_profile_info{
+
+    width: 100px;
+}
+
+.profile_icon_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 100%;
+    height: 77px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.menu_items{
+    height: 77px;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_part_menu{
+    display: flex;
+    width: 800px;
+}
+
+
+
+.menu_profile_items{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 103.05%;
+    color: #979391;
+    font-family: 'Inter';
+}
+
+.menu_box{
+    width: 140px;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.chosen{
+    border: 1px solid #D9D9D9;
+    border-bottom: 1px solid white;
+    height: 79px;
+}
+
+.profile_dream_info{
+}
+
+.profile_dream_content{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.profile_dream_name{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 103.05%;
+    color: #365262;
+    font-family: 'QTOptimum';
+    margin-bottom: 48px;
+    margin-top: 80px;
+}
+
+.wi300{
+    width: 300px;
+}
+
+.mt16{
+    margin-top: 16px;
+}
+
+.card_button{
+    width: 390px;
+    height: 74px;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%), #748E9C;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103.05%;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    border: none;
+    margin-top: 21px;
+}
+
+.blight{
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%) , #9DB1BC;
+}
+
+.blighter{
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(240, 249, 255, 0.5) 0%, rgba(241, 250, 255, 0) 100%) , #B8BEC1;
+}
+
+.card_likes{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.likes_text{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    color: #476676;
+}
