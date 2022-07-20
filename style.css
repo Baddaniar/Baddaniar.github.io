@@ -25,6 +25,11 @@ p{
     src: url('./font/helveticaneuecyr-bold.ttf');
 }
 
+@font-face {
+    font-family: "Beauty Swing Personal Use";
+    src: url('./font/Beauty\ Swing.otf');
+}
+
 .mt25{
     margin-top: 25px;
 }
@@ -47,7 +52,7 @@ header{
 .icon_box{
     width: 110px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -58,32 +63,166 @@ nav{
 
 .nav_text{
     font-weight: 600;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 21px;
     font-family: 'Inter', sans-serif;
     color: black;
+    text-decoration: none;
 }
 
 .grey{
     color: #979391;
 }
 
-.awhite{
-    color: #D9D9D9;
+.intro_content{
+    margin: 100px auto;
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.intro_left{
+    margin-top: 30px;
+    width: 600px;
+    height: 590px;
+}
+
+.intro_main_text{
+    width: 681px;
+    height: 372px;  
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 103.05%;
+    color: #1C2529;
+    font-family: 'Beauty Swing Personal Use';
+}
+
+.intro_desc_text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #AAAAAA;
+    font-family: 'Inter';
+}
+
+.intro_right{
+    width: 469.38px;
+    height: 590px;
+}
+
+.intro_right_name{
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro_coll_button{
+    width: 221px;
+    height: 80px;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%) , #748E9C;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    border: none;
+    margin-right: 14px;
+}
+
+.Intro_dream_button{
+    width: 253px;
+    height: 80px;
+    border: 2px solid #DEDEDE;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter';
+    color: #1C2529;
+}
 
 .latest_dreams{
     margin: 0 auto;
     width: 100%;
-    height: 908px;
+    height: 810px;
     background-image: url('./image/ldreamback.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.latest_dreams_content{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.charity_content{
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+    position: relative;
+}
+
+.charity_icon{
+    position: absolute;
+    top: -25px;
+    left: 410px;
+}
+
+.charity_desc{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.charity_chart{
+    display: flex;
+    width: 1300px;
+    margin-top: 20px;
+}
+
+.charity_box{
+    margin-right: 42px;
+    width: 900px;
+    height: 97px;
+    border: 2px solid #DEDEDE;
+}
+
+.charity_left{
+    width: 70%;
+}
+
+.charity_full{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 680px;
+    height: 97px;
+    background: linear-gradient(90deg, #6C8693 -15.57%, #A7C2D3 117.18%);
+}
+
+.charity_amount{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 103.05%;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+.contribute_button{
+    width: 255px;
+    height: 97px;
+    background: radial-gradient(43.08% 63.75% at 50% 50%, rgba(157, 184, 200, 0.5) 0%, rgba(156, 183, 199, 0) 100%) , #748E9C;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 103.05%;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    border: none;
+}
+
 .dreamsex{
-    width: 1500px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -92,21 +231,20 @@ nav{
 .mdream{
     display: flex;
     flex-direction: column;
-    max-width: 465px;
-    min-height: 570px;
+    max-width: 390px;
+    min-height: 510px;
     background-color: #FFFFFF;
 }
 
-.louvre_part{
+
+
+.louvre_content{
+    width: 80%;
     margin: 0 auto;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .page_info{
-    width: 1500px;
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -141,16 +279,16 @@ nav{
 
 .image_grid{
     margin: 0 auto;
-    width: 1500px;
+    width: 100%;
     display: grid;
     grid-auto-rows: 545px;
-    grid-template-columns: repeat(3,470px);
-    column-gap: 50px;
-    row-gap: 46px;
+    grid-template-columns: repeat(3,400px);
+    column-gap: 35px;
+    row-gap: 30px;
 }
 
 .card{
-    width: 470px;
+    max-width: 400px;
     height: 545px;
 }
 
@@ -223,19 +361,20 @@ nav{
     line-height: 18px; 
 }
 
-.obenefits{
-    width: 100%;
+
+.benefits_content{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .benefitsex{
     margin: 0 auto;
-    width: 1850px;
     display: flex;
     justify-content: space-between;
 }
 
 .benef{
-    width: 349.93px;
+    max-width: 280px;
     height: 434px;
     display: flex;
     flex-direction: column;
@@ -266,11 +405,12 @@ nav{
     border-left: 1px solid #E6E6E6;
 }
 
-
-.rating{
+.kindness_content{
     width: 80%;
     margin: 0 auto;
 }
+
+
 
 .rating_name{
     font-weight: 700;
@@ -282,8 +422,8 @@ nav{
 }
 
 .raiting_item{
-    width: 1504px;
-    height: 98px;
+    width: 100%;
+    height: 80px;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -346,12 +486,12 @@ nav{
 
 .wi190{width: 190px;}
 
-.pl25{
-    padding-left: 25px;
+.pl15{
+    padding-left: 15px;
 }
 
 .pr25{
-    padding-right: 25px;
+    padding-right: 15px;
 }
 
 .he130{
@@ -362,9 +502,6 @@ nav{
     margin-top: 46px;
 }
 
-.mt90{
-    margin-top: 90px;
-}
 
 .mr35{
     margin-right: 35px;
@@ -378,9 +515,14 @@ nav{
     margin: 0 auto;
 }
 
+.tcenter{
+    text-align: center;
+}
+
 .partners{
     width: 100%;
-
+    height: 300px;
+    margin-bottom: 100px;
 }
 
 .partners_box{
@@ -399,4 +541,154 @@ nav{
 footer{
     height: 595px;
     background: #394348;
+}
+
+.footer_content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.frow{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer_left{
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email_submit_block{
+    display: flex;
+}
+
+.footer_main_text{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 103.05%;
+    font-family: 'QTOptimum';
+    color: #FFFFFF;
+}
+
+.footer_desc{
+    width: 500px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter';
+}
+
+.footer_enter_email{
+    width: 572px;
+    height: 63px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    margin-right: 22px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.footer_enter_email::placeholder{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: 'Inter';
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mt90{
+    margin-top: 90px;
+}
+
+.footer_submit_email{
+    width: 168px;
+    height: 63px;
+    background: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #6A5843;
+    font-family: 'Inter';
+}
+
+.footer_right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_right_content{
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+}
+
+.footer_lang{
+    width: 46px;
+    height: 46px;
+    border: 2px solid #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter';
+    background-color: transparent;
+}
+
+.ru{
+    margin-left: 28px;
+    border-color: #748F9C;
+}
+
+.footer_f{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_f_left{
+    justify-content: space-between;
+    display: flex;
+    height: 57px;
+    width: 320px;
+    align-items: center;
+}
+
+.footer_f_l_line{
+    border-left: 1px solid #748F9C;
+    height: 57.5px;
+}
+
+.footer_year{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Inter';
+    color: #9CA1A3;
+}
+
+.footer_f_right{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_f_menu{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter';
+}
+
+.awhite{
+    color: #D9D9D9;
 }
