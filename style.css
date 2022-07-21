@@ -395,6 +395,7 @@ nav{
     line-height: 18px;
     color: #476676;
     font-family: 'Inter';
+    text-align: center;
 }
 
 .hline{
@@ -687,4 +688,80 @@ footer{
 
 .awhite{
     color: #D9D9D9;
+}
+
+@media (max-width: 768px){
+    .intro_right{
+        display: none;
+    }
+    header{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    nav{
+        margin: 0;
+        order: 3;
+    }
+
+    .navigation{
+        width: 600px;
+    }
+
+    .intro_main_text{
+        font-size: 80px;
+        width: 560px;
+    }
+
+    .charity_box{
+        display: none;
+    }
+
+
+    .page_info{
+        width: 100%;
+    }
+
+    .charity_desc > .page_name_decr:last-child{
+        display: none;
+    }
+
+    .mdream{
+        margin: 0 auto;
+    }
+    .mdream:nth-child(odd){
+        display: none;
+    }
+
+    .image_grid{
+        grid-template-columns: 400px;
+    }
+
+    .card:nth-child(1n+4){
+        display: none;
+    }
+
+    .hline{
+        display: none;
+    }
+
+    .benefitsex{
+        flex-direction: column;
+        margin: 46px auto;
+        align-items: center;
+    }
+
+    .benef{
+        height: 364px;
+        margin-bottom: 50px;
+    }
+
+    .footer_left{
+        width: 300px;
+
+    }
+
+    .footer_f_left{
+        display: none;
+    }
 }
