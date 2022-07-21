@@ -272,6 +272,7 @@ nav{
     height: 70px;
     margin-right: 60%;
     margin-bottom: 100px;
+    width: 80%;
 }
 
 .image_grid{
@@ -487,7 +488,7 @@ nav{
     padding-left: 15px;
 }
 
-.pr25{
+.pr15{
     padding-right: 15px;
 }
 
@@ -525,7 +526,8 @@ nav{
 .partners_box{
     display: flex;
     height: 150px;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .partner{
