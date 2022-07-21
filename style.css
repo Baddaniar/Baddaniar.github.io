@@ -243,7 +243,6 @@ nav{
 
 .page_info{
     width: 1300px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -281,7 +280,7 @@ nav{
     display: grid;
     grid-auto-rows: 545px;
     grid-template-columns: repeat(3,400px);
-    column-gap: 35px;
+    column-gap: 130px;
     row-gap: 30px;
 }
 
